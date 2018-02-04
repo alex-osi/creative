@@ -1,0 +1,186 @@
+/*//////////adaptive start\\\\\\\\*/
+@media only screen and (max-width: 1199px) {
+    /*advantage start*/
+    .properties-4 {
+        padding-top: 170px;
+    }
+    .properties-3 {
+        padding-top: 250px;
+    }
+    /*advantage stop*/
+}
+@media only screen and (max-width: 991px) {
+    h2 {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 28px;
+    }
+    /*headerwrap start*/
+    .about_info {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .text-request {
+        font-size: 16px;
+    }
+    /*headerwrap stop*/
+
+    /*inform start*/
+    .paragraph-1 {
+        font-size: 20px;
+    }
+    /*inform stop*/
+
+    /*advantage start*/
+    #main-advantage {
+
+        height: auto;
+        background-image: url(/creative/img/fon_best_2-min.jpg);
+        background-position: 50% 0px;
+        background-size: 700px;
+    }
+    .adv-1 {
+        text-align: left;
+        margin-top: 350px;
+        padding-right: 0px;
+    }
+    .adv-2 {
+        margin-top: 350px;
+    }
+    .properties-4 {
+        padding-top: 20px;
+    }
+    .properties-3 {
+        padding-top: 80px;
+    }
+    /*advantage stop*/
+}
+
+@media only screen and (max-width: 768px) {
+    /*navbar start*/
+    .navbar-collapse{
+        background-color: #E2E2E2 !important;
+    }
+    .navbar-toggle, .navbar-toggle:focus, .navbar-toggle:hover {
+        background-color: #FFFFFF !important;
+    }
+    .nav > li{
+        border-bottom: 1px solid #949494;
+    }
+    /*navbar stop*/
+
+    /*headerwrap start*/
+    #headerwrap {
+        background: url(/creative/img/mozaika-top.png);
+        background-position: 50% 52px;
+        background-size: 1190px;
+        background-repeat: no-repeat;
+    }
+    .contact {
+        display: none;
+    }
+
+    .about_info {
+        font-size: 22px;
+        line-height: 1.3em;
+        font-weight: 700;
+    }
+
+    .cars {
+        display: none;
+    }
+
+    .request-form {
+        height: 350px;
+        max-width: 300px;
+        margin-top: 40px;
+        margin: auto;
+    }
+
+    .slider {
+        max-width: 400px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .slider .slick-prev {
+        left: -18px;
+        top: 60%;
+    }
+    .slider .slick-next {
+        right: -15px;
+        top: 60%;
+    }
+    /*headerwrap stop*/
+
+    /*inform start*/
+    #inform {
+        background: url(/creative/img/7-fs.png);
+        background-size: 1190px;
+        height: 420px;
+        margin-top: 60px;
+    }
+
+    .inform-1 {
+        padding-top: 15px;
+    }
+    .paragraph-1 {
+        margin-top: 20px;
+    }
+    .inform-2 {
+        margin-top: 0px;
+    }
+    /*inform stop*/
+
+    /*advantage start*/
+    .adv-2 {
+        margin-top: 0px;
+    }
+    .properties-1, .properties-2, .properties-3,.properties-4 {
+        padding-top: 20px;
+    }
+    /*advantage stop*/
+}
+
+@media only screen and (min-width: 768px){
+    .nav-call, .nav-company {
+        display: none;
+    }
+
+    /*headerwrap start*/
+    .car-sm-lg, .car-tagline {
+        display: none;
+    }
+    /*headerwrap stop*/
+}
+
+@media only screen and (max-width: 638px){
+    /*headerwrap start*/
+    .car-sm-lg {
+        max-width: 100%
+    }
+    /*headerwrap stop*/
+
+}
+
+@media only screen and (max-width: 480px){
+    h2 {
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 26px;
+    }
+    /*inform start*/
+    #inform {
+        min-height: 520px;
+        background-repeat: no-repeat;
+        background-size: 1290px;
+    }
+    .inform-1 {
+        padding-top: 0px;
+    }
+    .paragraph-1, .paragraph-2 {
+        line-height: 1.2em;
+    }
+    /*inform stop*/
+}
+/*adaptive stop*/
