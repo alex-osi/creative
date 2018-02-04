@@ -34,8 +34,8 @@ img {
 }
 
 h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 37px;
@@ -114,7 +114,7 @@ figure embed {
 
 /*headerwrap start*/
 #headerwrap {
-    background: url(/creative/img/top_gfomnFx_1-min.png);
+    background: url(../img/top_gfomnFx_1-min.png);
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -267,7 +267,7 @@ figure embed {
     height: 390px;
     max-width: 1200px;
     margin: auto;
-    background: url(/creative/img/pazl_JH6C6eg.jpg) no-repeat;
+    background: url(../img/pazl_JH6C6eg.jpg) no-repeat;
     background-position: 50% 50%;
     /*background-size: contain;*/
 
@@ -302,7 +302,7 @@ figure embed {
 /*advantage start*/
 #main-advantage {
     height: 650px;
-    background-image: url(/creative/img/fon_best_1-min.jpg);
+    background: url(../img/fon_best_1-min.jpg);
     background-position: 50% 40px;
     background-repeat: no-repeat;
     font-size: 20px;

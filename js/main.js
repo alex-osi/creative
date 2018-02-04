@@ -10,7 +10,7 @@ $(".slide-popup").magnificPopup({
 });
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
     //popUp
     // $(".slider").magnificPopup({
