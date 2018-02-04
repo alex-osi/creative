@@ -31,7 +31,7 @@ $(document).ready(function() {
 
         slidesToScroll: 4,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 6000,
         dots: true,
 
         responsive: [{

@@ -35,7 +35,7 @@
     #main-advantage {
 
         height: auto;
-        background: url(../img/fon_best_2-min.jpg);
+        background: url(../img/fon_best_2-min.jpg) no-repeat;
         background-position: 50% 0;
         background-size: 700px;
     }
@@ -54,6 +54,12 @@
         padding-top: 80px;
     }
     /*advantage stop*/
+
+    /*cooperation start*/
+   .coop-text {
+        padding-left: 50px;
+    }
+    /*cooperation stop*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -132,13 +138,6 @@
     /*inform stop*/
 
     /*advantage start*/
-    .adv-2, .adv-1 {
-        margin-top: 0;
-    }
-
-    .properties-1, .properties-2, .properties-3,.properties-4 {
-        padding-top: 20px;
-    }
     #main-advantage {
         background-image: none;
     }
@@ -146,7 +145,31 @@
         margin-left: 90px;
         margin-top: -30px;
     }
+
+    .adv-2, .adv-1 {
+        margin-top: 0;
+    }
+
+    .properties-1, .properties-2, .properties-3,.properties-4 {
+        padding-top: 0;
+    }
+    .paz1, .paz2, .paz3, .paz4  {
+        width: 80px;
+        padding-top: 30px;
+    }
     /*advantage stop*/
+    /*cooperation start*/
+    #cooperation {
+        display: none;
+    }
+    /*cooperation stop*/
+
+    /*competitors start*/
+    .nav-pills > li {
+        float: left;
+        width: 33.333%;
+    }
+    /*competitors stop*/
 }
 
 @media only screen and (min-width: 768px){
@@ -161,11 +184,18 @@
     /*headerwrap stop*/
 
     /*advantage start*/
-    .paz1 {
+    .paz1, .paz2, .paz3, .paz4  {
         display: none;
     }
     /*advantage stop*/
 
+    /*competitors start*/
+    .nav-just > li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+    }
+    /*competitors stop*/
 }
 
 @media only screen and (max-width: 638px){
@@ -196,5 +226,17 @@
         line-height: 1.2em;
     }
     /*inform stop*/
+
+    /*advantage start*/
+    .properties-1, .properties-2, .properties-3,.properties-4 {
+        font-size: 16px;
+    }
+    /*advantage stop*/
+    /*competitors start*/
+    .nav-pills > li  {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    /*competitors stop*/
 }
 /*adaptive stop*/
