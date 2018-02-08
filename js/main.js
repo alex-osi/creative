@@ -22,6 +22,35 @@ $(".slide-popup2").magnificPopup({
         enabled : true
     }
 });
+
+$(".slide-popup3").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
+
+$(".slide-popup4").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
+
+$(".slide-popup5").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
+
+$(".slide-popup6").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
+
 // $(document).ready(function() {
 
     //popUp

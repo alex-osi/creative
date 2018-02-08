@@ -250,14 +250,6 @@
         font-size: 15px;
         font-weight: 500;
     }
-
-    .slider-1 .slick-prev {
-        left: -15px;
-    }
-
-    .slider-1 .slick-next {
-        right: -15px;
-    }
     /*competitors stop*/
 }
 /*adaptive stop*/
