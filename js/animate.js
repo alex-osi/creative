@@ -38,7 +38,7 @@ $(document).ready(function() {
 
             breakpoint: 3500,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 4
             }
 
         }, {
@@ -47,12 +47,34 @@ $(document).ready(function() {
             settings: {
                 slidesToScroll: 1,
                 slidesToShow: 1,
-                dots: false,
+                dots: false
             }
 
         }]
 
     });
 
+
+$('.slider-1').slick({
+
+    slidesToScroll: 1,
+
+    responsive: [{
+
+        breakpoint: 3500,
+        settings: {
+            slidesToShow: 2
+        }
+
+    }, {
+
+        breakpoint: 767,
+        settings: {
+            slidesToShow: 1
+        }
+
+    }]
+
 });
 
+});

@@ -9,7 +9,19 @@ $(".slide-popup").magnificPopup({
     }
 });
 
+$(".slide-popup1").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
 
+$(".slide-popup2").magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+});
 // $(document).ready(function() {
 
     //popUp
