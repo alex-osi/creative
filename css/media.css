@@ -64,6 +64,16 @@
         padding-left: 50px;
     }
     /*cooperation stop*/
+
+    /*review start*/
+    .review-slider .slick-prev {
+        left: -15px;
+    }
+
+    .review-slider .slick-next {
+        right: -15px;
+    }
+    /*review stop */
 }
 
 @media only screen and (max-width: 768px) {
@@ -84,10 +94,9 @@
 
     /*headerwrap start*/
     #headerwrap {
-        background: url(../img/mozaika-top.png);
+        background: url(../img/mozaika-top.png) no-repeat;
         background-position: 50% 52px;
         background-size: 1190px;
-        background-repeat: no-repeat;
     }
     .contact {
         display: none;
@@ -183,6 +192,30 @@
         margin: auto;
     }
     /*competitors stop*/
+
+    /*review start*/
+    .paragraph-3 {
+        text-align: center;
+    }
+    /*review stop */
+
+    /*banner start*/
+    .banner {
+
+        background-color: #f5f5f5;
+    }
+
+    .ban {
+        margin-top: 30px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        max-width: 500px;
+    }
+
+    .banner-logo {
+        display: none;
+    }
+    /*banner stop*/
 }
 
 @media only screen and (min-width: 768px){
@@ -209,7 +242,15 @@
         float: none;
     }
     /*competitors stop*/
+
+    /*banner start*/
+
+    .banner-logo2 {
+        display: none;
+    }
+    /*banner stop*/
 }
+
 
 @media only screen and (max-width: 638px){
     /*headerwrap start*/
@@ -251,5 +292,26 @@
         font-weight: 500;
     }
     /*competitors stop*/
+
+    /*review start*/
+    .paragraph-3 {
+        padding: 0 10px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: 15px;
+        line-height: 1.4em;
+        text-align: justify;
+    }
+
+    .rev-logo {
+        padding: 0 40%;
+    }
+
+    .rev-sign {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    /*review stop */
 }
 /*adaptive stop*/

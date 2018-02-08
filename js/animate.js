@@ -77,4 +77,29 @@ $('.slider-1').slick({
 
 });
 
+    $('.review-slider').slick({
+
+        slidesToScroll: 1,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+
+        responsive: [{
+
+            breakpoint: 3500,
+            settings: {
+                slidesToShow: 2
+            }
+
+        }, {
+
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1
+            }
+
+        }]
+
+    });
+
 });
