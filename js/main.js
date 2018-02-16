@@ -51,6 +51,7 @@ $(".slide-popup6").magnificPopup({
     }
 });
 
+
 // $(document).ready(function() {
 
     //popUp

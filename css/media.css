@@ -65,6 +65,25 @@
     }
     /*cooperation stop*/
 
+    /*services start*/
+    .serv-par {
+        font-size: 22px;
+    }
+
+    .serv-par-2, .serv-par-5 {
+        font-size: 16px;
+    }
+
+    .image-16 {
+        width: 60px;
+    }
+
+    .serv-par-3 {
+        max-width: 280px;
+        font-size: 17px;
+    }
+    /*services stop*/
+
     /*review start*/
     .review-slider .slick-prev {
         left: -15px;
@@ -193,6 +212,92 @@
     }
     /*competitors stop*/
 
+    /*services start*/
+    .serv {
+         margin-top: 0;
+    }
+
+    .collapse {
+        display: none;
+        visibility: hidden;
+    }
+
+    .service-but, .service-but:hover, .service-but:focus {
+        width: 100%;
+        min-height: 70px;
+        padding: 15px 30px 15px 15px;
+        align-items: center;
+        border-bottom: 2px solid #d6d6d6;
+        background-color: #ba1154;
+        color: #fff;
+        border-radius: 0;
+        font-size: 16px;
+        line-height: 1.3em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+        outline-offset: 0;
+        outline: none;
+    }
+
+    .service-but.collapsed {
+        background-color: #e7e7e7;
+        color: #000;
+    }
+
+    /*.service {*/
+        /*font-size: 16px;*/
+        /*line-height: 1.3em;*/
+        /*font-weight: 600;*/
+        /*text-align: center;*/
+    /*}*/
+
+    .content-1 {
+        display: block;
+        max-width: 395px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 500;
+    }
+
+    .serv-par {
+        display: none;
+    }
+
+    .content-2 {
+        max-width: 720px;
+        margin-top: 20px;
+    }
+
+    .serv-par-4 {
+        text-align: center;
+    }
+
+    .image-15 {
+        width: 720px;
+    }
+
+    .image-12 {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .button-price {
+        margin-bottom: 40px;
+    }
+
+    .collapse.in {
+        border-right: 2px dashed #e7e7e7;
+        border-bottom: 2px dashed #e7e7e7;
+        border-left: 2px dashed #e7e7e7;
+        background-color: #fff;
+    }
+    /*services stop*/
+
     /*review start*/
     .paragraph-3 {
         text-align: center;
@@ -216,6 +321,10 @@
         display: none;
     }
     /*banner stop*/
+
+    /*contacts start*/
+
+    /*contacts stop*/
 }
 
 @media only screen and (min-width: 768px){
@@ -243,12 +352,28 @@
     }
     /*competitors stop*/
 
+    /*services start*/
+    .service-but {
+        display: none;
+    }
+
+    .collapse {
+        display: none;
+        visibility: hidden;
+    }
+    /*services stop*/
+
     /*banner start*/
 
     .banner-logo2 {
         display: none;
     }
     /*banner stop*/
+
+    /*contacts start*/
+
+    /*contacts stop*/
+
 }
 
 
@@ -293,6 +418,17 @@
     }
     /*competitors stop*/
 
+    /*services start*/
+    .service {
+        font-size: 14px;
+    }
+
+    .image-16 {
+        width: 30px;
+    }
+
+    /*services stop*/
+
     /*review start*/
     .paragraph-3 {
         padding: 0 10px;
@@ -313,5 +449,24 @@
         text-align: center;
     }
     /*review stop */
+
+    /*contacts start*/
+    .link-3, .link-3:hover, .link-3.active, .link-3:focus {
+        color: #444;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .tel-text {
+        display: none;
+    }
+    /*contacts stop*/
+}
+
+@media only screen and (max-width: 360px) {
+    .serv-par-3 {
+        max-width: 200px;
+        font-size: 15px;
+    }
 }
 /*adaptive stop*/

@@ -11,6 +11,7 @@ body {
     color: #202020;
     background-color: #FFFFFF;
 
+
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 
@@ -144,7 +145,7 @@ figure embed {
     text-align: right;
 }
 
-.link, .link:hover {
+.link, .link:hover, .link.active, .link:focus {
     color: #000;
     font-size: 30px;
     line-height: 1em;
@@ -221,7 +222,7 @@ figure embed {
 .request {
     min-height: 335px;
     max-width: 267px;
-    min-width: 243px;
+    min-width: 230px;
     padding: 15px 20px 20px;
     border: 2px solid #000;
 }
@@ -399,6 +400,14 @@ figure embed {
 /*cooperation stop*/
 
 /*competitors start*/
+#competitors {
+    padding-bottom: 40px;
+}
+
+#competitors h2 {
+    padding-bottom: 40px;
+}
+
 .nav-pills > li + li {
     margin-left: 0;
     border: 1px solid #949494;
@@ -441,6 +450,110 @@ figure embed {
 }
 
 /*competitors stop*/
+
+/*services start*/
+.serv {
+    margin-top: 40px;
+}
+
+.image-16 {
+    vertical-align: top;
+}
+
+.serv-par {
+    max-width: 450px;
+    font-family: Roboto, sans-serif;
+    color: #000;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.serv-par-2, .serv-par-5 {
+    max-width: 350px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #555;
+    font-size: 19px;
+    line-height: 1.2em;
+}
+
+.serv-i {
+    display: inline-block;
+    margin-top: 40px;
+}
+.serv-par-3 {
+    display: inline-block;
+    max-width: 320px;
+    color: #0d4a92;
+    font-size: 19px;
+    line-height: 1.2em;
+}
+
+.serv-par-4, .serv-par-6 {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.serv-par-5 {
+    max-width: 100%;
+    text-align: center;
+}
+
+.serv-par-6 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.image-14 {
+    display: block;
+    margin: 20px auto;
+
+}
+
+.button-price{
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #c61618;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.button-price > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button-price:hover {
+    background-color: #0d4383;
+}
+
+.unordered-list {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.image-12 {
+    width: 400px;
+    margin: 0;
+}
+
+/*services stop*/
+
 
 /*review start*/
 #review {
@@ -491,15 +604,80 @@ figure embed {
 /*banner stop*/
 
 
-#footer{
-    background: #2d2d2d;
-    padding: 3% 0;
-    color: #cccccc;
+/*contacts start*/
+#contacts {
+    padding-bottom: 60px;
+    background: url(../img/mozaika-bot.png) no-repeat;
+    background-position: 50% 100%;
+    background-size: 1190px;
+
 }
 
-.footer-column {
-    margin: 15px 0;
+.company {
+    width: 100%;
+    margin: 70px 0;
+
 }
+
+.logo-company {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tel-1 {
+    margin-bottom: 15px;
+}
+.add-info {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.image-17 {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+.link-3, .link-3:hover, .link-3.active, .link-3:focus {
+    color: #000;
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+.tel-text {
+    text-align: right;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+.telephone-1 {
+    text-align: left;
+}
+
+.paragraph-6 {
+    color: #000;
+    font-size: 20px;
+    line-height: 1em;
+    width: auto;
+}
+/*contacts stop*/
+
+/*#footer{*/
+    /*background: #2d2d2d;*/
+    /*padding: 3% 0;*/
+    /*color: #cccccc;*/
+/*}*/
+
+/*.footer-column {*/
+    /*margin: 15px 0;*/
+/*}*/
 
 .map {
     max-height: 250px;
