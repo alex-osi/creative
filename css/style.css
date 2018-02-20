@@ -123,6 +123,53 @@ figure embed {
 .navbar-nav {
     margin: 1px -15px;
 }
+
+.link-4, .link-4:hover, .link-4.active, .link-4:focus {
+    color: #000;
+    font-size: 20px;
+    display: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-par {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#form-telephone, #form-price {
+    padding-top: 20%;
+}
+
+#form-telephone .modal-content, #form-price .modal-content {
+    background: #e1e1e1;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-primary-1, .btn-primary-1:hover, .btn-primary-1.active, .btn-primary-1:focus {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #0d4383;
+    font-size: 21px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-field-1 {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
 /*navbar - stop*/
 
 /*headerwrap start*/
@@ -551,7 +598,9 @@ figure embed {
     width: 400px;
     margin: 0;
 }
-
+.slider-2 {
+    margin: 30px auto;
+}
 /*services stop*/
 
 
@@ -605,14 +654,6 @@ figure embed {
 
 
 /*contacts start*/
-#contacts {
-    padding-bottom: 60px;
-    background: url(../img/mozaika-bot.png) no-repeat;
-    background-position: 50% 100%;
-    background-size: 1190px;
-
-}
-
 .company {
     width: 100%;
     margin: 70px 0;
@@ -669,16 +710,6 @@ figure embed {
 }
 /*contacts stop*/
 
-/*#footer{*/
-    /*background: #2d2d2d;*/
-    /*padding: 3% 0;*/
-    /*color: #cccccc;*/
-/*}*/
-
-/*.footer-column {*/
-    /*margin: 15px 0;*/
-/*}*/
-
 .map {
     max-height: 250px;
     opacity: .7;
@@ -688,17 +719,6 @@ figure embed {
 .map:hover {
     opacity: 1;
 }
-
-/*#footer i{*/
-    /*color: #bdbdbd;*/
-    /*font-size: 30px;*/
-    /*padding: 20px;*/
-/*}*/
-
-/*#footer i:hover {*/
-    /*color: #ff7878;*/
-/*}*/
-
 
 .top {
     position: fixed;
