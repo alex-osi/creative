@@ -113,6 +113,7 @@ $('a[data-target^="anchor"]').bind('click.smoothscroll',function () {
     return false;
 });
 
+//свернуть контент collapse width 768
 function windowSize(){
     if ($(window).width() <= '769'){
         $(".content-serv").collapse('hide');
