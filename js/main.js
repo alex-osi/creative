@@ -112,3 +112,12 @@ $('a[data-target^="anchor"]').bind('click.smoothscroll',function () {
     $('body, html').animate({scrollTop: bl_top}, 1100);
     return false;
 });
+
+function windowSize(){
+    if ($(window).width() <= '769'){
+        $(".content-serv").collapse('hide');
+    } else {
+        $(".content-serv").collapse('show');
+    }
+}
+$(window).on('load resize',windowSize);
