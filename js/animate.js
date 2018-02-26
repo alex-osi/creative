@@ -32,6 +32,7 @@ $(document).ready(function() {
 $('.slider-1').slick({
 
     slidesToScroll: 1,
+    variableWidth: true,
 
     responsive: [{
 

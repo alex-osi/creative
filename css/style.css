@@ -496,6 +496,9 @@ figure embed {
     right: -15px;
 }
 
+#competitors .slick-slide, #competitors .slick-track {
+    width: 279px;
+}
 /*competitors stop*/
 
 /*services start*/

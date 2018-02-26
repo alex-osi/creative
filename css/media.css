@@ -1,4 +1,11 @@
 /*//////////adaptive start\\\\\\\\*/
+@media only screen and (min-width: 1199px) {
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 343px;
+    }
+}
+
+
 @media only screen and (max-width: 1199px) {
     /*advantage start*/
     .properties-4 {
@@ -64,6 +71,12 @@
         padding-left: 50px;
     }
     /*cooperation stop*/
+
+    /*competitors start*/
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 209px;
+    }
+    /*competitors stop*/
 
     /*services start*/
     .serv-par {
@@ -214,6 +227,10 @@
         max-width: 400px;
         min-height: 200px;
         margin: auto;
+    }
+
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 400px;
     }
     /*competitors stop*/
 
