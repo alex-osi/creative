@@ -98,4 +98,12 @@ $('.slider-1').slick({
 
     });
 
+    function windowSize(){
+        if ($(window).width() <= '769'){
+            $(".content-serv").collapse('hide');
+        } else {
+            $(".content-serv").collapse('show');
+        }
+    }
+    $(window).on('load resize',windowSize);
 });
