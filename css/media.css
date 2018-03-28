@@ -98,13 +98,7 @@
     /*services stop*/
 
     /*review start*/
-    .review-slider .slick-prev {
-        left: -15px;
-    }
 
-    .review-slider .slick-next {
-        right: -15px;
-    }
     /*review stop */
 }
 
@@ -161,14 +155,6 @@
         margin: auto;
     }
 
-    .slider .slick-prev {
-        left: -18px;
-        top: 60%;
-    }
-    .slider .slick-next {
-        right: -15px;
-        top: 60%;
-    }
     /*headerwrap stop*/
 
     /*inform start*/
@@ -177,6 +163,7 @@
         background-size: 1190px;
         height: 420px;
         margin-top: 60px;
+        margin-bottom: 40px;
     }
 
     .inform-1 {
@@ -421,9 +408,15 @@
     }
     /*inform start*/
     #inform {
-        min-height: 520px;
+        min-height: 600px;
+        background: url(../img/9-fs.png);
+        background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: 1290px;
+        height: auto;
+        padding: 60px 15px;
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
     .inform-1 {
         padding-top: 0;
@@ -477,11 +470,16 @@
     }
     /*review stop */
 
+    .image-28 {
+        width: 26px;
+    }
+
     /*contacts start*/
     .link-3, .link-3:hover, .link-3.active, .link-3:focus {
         color: #444;
         font-size: 16px;
         font-weight: 500;
+        padding-left: 15px;
     }
 
     .tel-text {

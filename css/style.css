@@ -35,8 +35,8 @@ img {
 }
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 37px;
@@ -447,10 +447,6 @@ figure embed {
     padding-bottom: 40px;
 }
 
-#competitors h2 {
-    padding-bottom: 40px;
-}
-
 .nav-pills > li + li {
     margin-left: 0;
     border: 1px solid #949494;
@@ -482,14 +478,6 @@ figure embed {
 
 .competitors-slider {
     padding: 2%;
-}
-
-.slider-1 .slick-prev {
-    left: -15px;
-}
-
-.slider-1 .slick-next {
-    right: -15px;
 }
 
 #competitors .slick-slide, #competitors .slick-track {
