@@ -1,0 +1,57 @@
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: FontAwesome;
+    color: white;
+    font-size: 40px;
+}
+.slick-next:before
+{
+    content: '\f054';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '\f053';
+}
+.slick-prev:before
+{
+    content: '\f053';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '\f054';
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    width: auto;
+    height: auto;
+    z-index: 1001;
+}
+.slick-prev:before, .slick-next:before {
+    color: #fff;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: #c61618;
+}
+.slick-next
+{
+    right: 10px;
+}
+[dir='rtl'] .slick-next
+{
+    left: 10px;
+}
+/*.slick-prev*/
+/*{*/
+    /*left: 10px;*/
+/*}*/
+/*[dir='rtl'] .slick-prev*/
+/*{*/
+    /*right: 10px;*/
+/*}*/

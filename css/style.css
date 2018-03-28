@@ -208,8 +208,9 @@ figure embed {
 }
 
 .button-phone{
-    position: absolute;
     top: -50%;
+    margin-top: -5px;
+    margin-bottom: 10px;
     padding: 13px 10px;
     background-color: #0d4383;
     font-size: 14px;
@@ -231,14 +232,12 @@ figure embed {
 }
 
 .link-2, .link-2:hover {
-    position: absolute;
-    top: 340%;
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: 500 !important;
-    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
     color: #0000EC;
-    text-decoration: underline !important;
+    text-decoration: underline;
+    display: inline-block;
+    padding-left: 10px;
 }
 
 .about_info {
@@ -313,16 +312,13 @@ figure embed {
 
 .about-slider {
     padding: 3% 0;
+    max-width: 1047px;
 }
 
 .sl-slide {
     outline: none;
     margin: 0 5px;
     cursor: pointer;
-}
-
-.slick-prev:before, .slick-next:before {
-    color: #c61618;
 }
 /*headerwrap stop*/
 
@@ -764,8 +760,23 @@ figure embed {
     max-width: 200px;
 }
 
-
-
 .mfp-content .mfp-close:hover {
     cursor: pointer;
+}
+
+.main-menu {
+    width: 100%;
+}
+    .main-menu > li {
+        width: 20%;
+        text-align: center;
+    }
+        .main-menu > li:first-child {
+            text-align: left;
+        }
+        .main-menu > li:last-child {
+            text-align: right;
+        }
+.padding-left-15 {
+    padding-left: 15px;
 }

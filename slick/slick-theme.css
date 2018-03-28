@@ -55,6 +55,7 @@
 .slick-next:hover:before,
 .slick-next:focus:before
 {
+    color: #c61618;
     opacity: 1;
 }
 .slick-prev.slick-disabled:before,
