@@ -47,11 +47,11 @@
 {
     left: 10px;
 }
-/*.slick-prev*/
-/*{*/
-    /*left: 10px;*/
-/*}*/
-/*[dir='rtl'] .slick-prev*/
-/*{*/
-    /*right: 10px;*/
-/*}*/
+.slick-prev
+{
+    left: 10px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: 10px;
+}
