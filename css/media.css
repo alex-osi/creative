@@ -356,6 +356,14 @@
         background-position: 50% 100%;
         background-size: 1190px;
     }
+
+    .tel-text {
+        font-size: 14px;
+    }
+
+    .link-3, .link-3:hover, .link-3.active, .link-3:focus {
+        font-size: 18px;
+    }
     /*contacts stop*/
 }
 
@@ -507,13 +515,17 @@
     /*contacts start*/
     .link-3, .link-3:hover, .link-3.active, .link-3:focus {
         color: #444;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         padding-left: 15px;
     }
 
     .tel-text {
         display: none;
+    }
+
+    .col-xs-9 {
+        width: 100%;
     }
     /*contacts stop*/
 }
