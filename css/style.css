@@ -35,13 +35,30 @@ img {
 }
 
 h2 {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 37px;
     line-height: 1.3em;
     text-align: center;
+}
+
+.caption-1 {
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.caption-2, .caption-3 {
+    margin-top: 20px;
+}
+
+.caption-4 {
+     margin-top: 0;
+ }
+
+.caption-5 {
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -403,9 +420,9 @@ figure embed {
 /*advantage stop*/
 
 /*cooperation start*/
-#cooperation {
-    margin-top: 20px;
-}
+/*#cooperation {*/
+    /*margin-top: -20px;*/
+/*}*/
 .coop-row {
     margin-top: 35px;
 }
