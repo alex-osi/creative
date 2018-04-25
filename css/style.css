@@ -174,19 +174,24 @@ figure embed {
 
 /*headerwrap start*/
 #headerwrap {
-    background: url(../img/top_gfomnFx_1-min.png);
-    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 80px;
-    background-position: 100% 53px;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
+    padding-top: 53px;
 }
+    #headerwrap .container {
+
+    }
+        #headerwrap .container .contact{
+            background: url(../img/top_gfomnFx_1-min.png);
+            background-position: 100% 0px;
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            -webkit-background-size: auto;
+            -moz-background-size: auto;
+            -o-background-size: auto;
+            padding: 30px 30px 0 30px;
+        }
 
 .telephone {
     text-align: right;
@@ -743,6 +748,7 @@ figure embed {
 
 .main-menu {
     width: 100%;
+    margin: 0;
 }
     .main-menu > li {
         width: 20%;
@@ -751,9 +757,15 @@ figure embed {
         .main-menu > li:first-child {
             text-align: left;
         }
+            .main-menu > li:first-child > a {
+                padding-left: 0;
+            }
         .main-menu > li:last-child {
             text-align: right;
         }
+            .main-menu > li:last-child > a {
+                padding-right: 0;
+            }
 .padding-left-15 {
     padding-left: 15px;
 }
