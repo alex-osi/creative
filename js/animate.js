@@ -76,6 +76,8 @@ $('.slider-1').slick({
 
     $('.review-slider').slick({
 
+
+
         slidesToScroll: 1,
         dots: true,
         autoplay: true,

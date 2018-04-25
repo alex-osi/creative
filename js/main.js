@@ -115,7 +115,7 @@ $('a[data-target^="anchor"]').bind('click.smoothscroll',function () {
 
 //свернуть контент collapse width 768
 function windowSize(){
-    if ($(window).width() <= '769'){
+    if ($(window).width() <= '750'){
         $(".content-serv").collapse('hide');
     } else {
         $(".content-serv").collapse('show');

@@ -34,6 +34,23 @@
     .text-request {
         font-size: 16px;
     }
+
+    .image-11 {
+        max-width: 80%;
+    }
+
+    .link, .link:hover, .link.active, .link:focus {
+        font-size: 26px;
+    }
+
+    .text-block {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .inform-2 {
+        margin-top: 0;
+    }
     /*headerwrap stop*/
 
     /*inform start*/
@@ -63,6 +80,14 @@
     }
     .properties-3 {
         padding-top: 80px;
+    }
+
+    .caption-1 {
+        margin-top: -20px;
+    }
+
+    .caption-2, .caption-3 {
+        margin-top: 20px;
     }
     /*advantage stop*/
 
@@ -129,7 +154,7 @@
         background-position: 50% 52px;
         background-size: 1190px;
     }
-    .contact {
+    .telephone, .avatar {
         display: none;
     }
 
@@ -347,6 +372,18 @@
     }
 
     /*headerwrap start*/
+    #headerwrap .container .contact{
+        background: url(../img/top_gfomnFx_1-min.png);
+        background-position: 100% 0;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto;
+        padding: 30px 30px 0 30px;
+    }
+
     .car-sm-lg, .car-tagline {
         display: none;
     }
@@ -373,7 +410,7 @@
 
     .collapse {
         display: none;
-        visibility: hidden;
+        /*visibility: hidden;*/
     }
     /*services stop*/
 
