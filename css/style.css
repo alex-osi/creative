@@ -85,6 +85,7 @@ figure embed {
     max-width: 100%;
 }
 
+
 /*navbar - start*/
 
 .navbar {
@@ -495,7 +496,7 @@ figure embed {
     padding: 5%;
 }
 
-#competitors .slick-slide, #competitors .slick-track {
+#competitors .slick-slide, #competitors .slick-track, #services .slick-slide, #services .slick-track {
     width: 279px;
 }
 /*competitors stop*/

@@ -54,6 +54,7 @@ $('.slider-1').slick({
 
     $('.slider-2').slick({
 
+        variableWidth: true,
         responsive: [{
 
             breakpoint: 3500,

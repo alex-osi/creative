@@ -15,6 +15,9 @@
         padding-top: 250px;
     }
     /*advantage stop*/
+    #services .slick-slide, #services .slick-track {
+        width: 229px;
+    }
 }
 @media only screen and (max-width: 991px) {
     h2 {
@@ -112,6 +115,10 @@
     .serv-par-3 {
         max-width: 280px;
         font-size: 17px;
+    }
+
+    #services .slick-slide, #services .slick-track {
+        width: 169px;
     }
     /*services stop*/
 
@@ -234,7 +241,7 @@
         margin: auto;
     }
 
-    #competitors .slick-slide, #competitors .slick-track {
+    #competitors .slick-slide, #competitors .slick-track, #services .slick-slide, #services .slick-track {
         width: 400px;
     }
     /*competitors stop*/
@@ -322,6 +329,9 @@
         height: 200px;
         margin-top: 0;
         margin-bottom: 70px;
+    }
+    #services .slick-prev, #services .slick-next {
+        top: 65%;
     }
     /*services stop*/
 
@@ -474,6 +484,10 @@
         font-size: 15px;
         font-weight: 500;
     }
+
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 369px;
+    }
     /*competitors stop*/
 
     /*services start*/
@@ -530,10 +544,20 @@
     /*contacts stop*/
 }
 
+@media only screen and (max-width: 420px) {
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 309px;
+    }
+}
+
 @media only screen and (max-width: 360px) {
     .serv-par-3 {
         max-width: 200px;
         font-size: 15px;
+    }
+
+    #competitors .slick-slide, #competitors .slick-track {
+        width: 270px;
     }
 }
 /*adaptive stop*/
