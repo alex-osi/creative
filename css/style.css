@@ -53,7 +53,7 @@ h2 {
 }
 
 .caption-4 {
-     margin-top: 0;
+     margin-top: 50px;
  }
 
 .caption-5 {
@@ -284,6 +284,7 @@ figure embed {
     min-width: 230px;
     padding: 15px 20px 20px;
     border: 2px solid #000;
+    display: inline-block;
 }
 
 .text-request {
@@ -325,7 +326,9 @@ figure embed {
 
 .about-slider {
     padding: 3% 0 0 0;
-    max-width: 1047px;
+    margin-left: -5px;
+    /*margin-right: -2.5px;*/
+    /*max-width: 1047px;*/
 }
 
 .sl-slide {
@@ -340,11 +343,13 @@ figure embed {
     height: 390px;
     max-width: 1200px;
     margin: auto;
-    background: url(../img/pazl_JH6C6eg.jpg) no-repeat;
-    background-position: 50% 50%;
-    /*background-size: contain;*/
-
 }
+    #inform .wrap {
+        background: url(../img/pazl_JH6C6eg.jpg) no-repeat;
+        /*background-position: 50% 50%;*/
+        background-size: 100%;
+        min-height: 360px;
+    }
 
 .inform-1 {
     padding-top: 85px;
@@ -373,6 +378,9 @@ figure embed {
 /*inform stop*/
 
 /*advantage start*/
+#advantage {
+    padding-top: 70px;
+}
 #main-advantage {
     height: 650px;
     background: url(../img/fon_best_1-min.jpg);
@@ -421,9 +429,9 @@ figure embed {
 /*advantage stop*/
 
 /*cooperation start*/
-/*#cooperation {*/
-    /*margin-top: -20px;*/
-/*}*/
+#cooperation {
+    margin-top: 50px;
+}
 .coop-row {
     margin-top: 35px;
 }
@@ -457,6 +465,7 @@ figure embed {
 
 /*competitors start*/
 #competitors {
+    margin-top: 100px;
     padding-bottom: 40px;
 }
     #competitors .tab-content .tab-pane .row h3 {
@@ -537,8 +546,8 @@ figure embed {
     display: inline-block;
     max-width: 320px;
     color: #0d4a92;
-    font-size: 18px;
-    line-height: 1.4em;
+    font-size: 19px;
+    line-height: 1.2em;
     padding-left: 20px;
 }
 
@@ -570,7 +579,7 @@ figure embed {
     display: block;
     width: 100%;
     max-width: 260px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 18px;
@@ -610,8 +619,16 @@ figure embed {
 
 /*review start*/
 #review {
-    padding: 3%;
+    /*padding: 3%;*/
+    padding-top: 100px;
 }
+    #review .row > div:nth-child(odd) {
+        padding-right: 20px;
+    }
+    #review .row > div:nth-child(even) {
+        padding-left: 20px;
+    }
+
 .review-slider {
     margin-top: 50px;
 }
@@ -812,4 +829,13 @@ figure embed {
     }
 #contacts {
     padding-bottom: 50px;
+}
+.clearfix {
+    clear: both;
+}
+.serv-par-3-button-price {
+    margin-left: 106px;
+}
+.serv-map-button-price {
+    margin-left: 80px;
 }
