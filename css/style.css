@@ -382,7 +382,7 @@ figure embed {
     padding-top: 70px;
 }
 #main-advantage {
-    height: 650px;
+    min-height: 550px;
     background: url(../img/fon_best_1-min.jpg);
     background-position: 50% 40px;
     background-repeat: no-repeat;
