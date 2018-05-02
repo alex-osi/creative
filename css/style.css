@@ -340,7 +340,7 @@ figure embed {
 
 /*inform start*/
 #inform{
-    height: 390px;
+    mix-height: 390px;
     max-width: 1200px;
     margin: auto;
 }
@@ -838,4 +838,7 @@ figure embed {
 }
 .serv-map-button-price {
     margin-left: 80px;
+}
+body > .navbar {
+    height: 55px;
 }

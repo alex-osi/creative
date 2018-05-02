@@ -184,11 +184,13 @@
 
     /*inform start*/
     #inform {
-        background: url(../img/7-fs.png);
+        background: url(../img/7-fs.png) no-repeat;
         background-size: 1190px;
-        height: 420px;
         margin-top: 60px;
         margin-bottom: 40px;
+    }
+    #inform .wrap {
+        background: none;
     }
 
     .inform-1 {
@@ -230,6 +232,9 @@
     /*cooperation stop*/
 
     /*competitors start*/
+    #competitors {
+        margin-top: 30px;
+    }
     .nav-pills > li {
         float: left;
         width: 33.333%;
